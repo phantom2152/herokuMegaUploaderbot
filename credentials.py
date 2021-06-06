@@ -1,10 +1,11 @@
 '''Credentials'''
+import os
 
 
-api_id = #API ID
+api_id = os.getenv("api_id")
 
-api_hash = #API Hash
+api_hash = os.getenv("api_hash")
 
-phone = #Phone Number
+phone = os.getenv("phone_number")
 
-bot_token = #Bot Token
+bot_token = os.getenv("bot_token")
