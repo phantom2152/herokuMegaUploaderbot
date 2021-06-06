@@ -8,4 +8,4 @@ Don't Forget to give a Star.
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Achu2234/herokuMegaUploaderbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Achu2234/herokuMegaUploaderbot)
