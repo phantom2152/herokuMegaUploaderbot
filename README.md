@@ -2,7 +2,7 @@
 
 This is the source code of mega uploader telegram bot that can make by heroku
 
-You can use this source code in any way but you need to give credit to its Developer AJTimePyro And Achu biju.
+You can use this source code in any way but you need to give credit to its Developer AJTimePyro .
 
 Don't Forget to give a Star.
 
