@@ -23,7 +23,7 @@ mega = Mega()
 
 
 '''Some permanent Variables defined'''
-dev = (1116098563) #AJTimePyro
+dev = (764765869) #AJTimePyro
 common_text = "\n\n<u>If you facing any problem, so report at@Yeageristbotsdev</u>"
 start1 = "<i>To login your account send login detail in this format email,password.</i>\n"
 start_msg = f"<b>I am a Bot.</b>\n\n{start1}\nWe will store your login detail so that you don't have to login everytime you use. So provide your temporary account for your security.{common_text}"
@@ -44,14 +44,14 @@ logged_out = "**Your account is now logged out from this bot.**"
 
 
 '''Login as a Bot and Userbot'''
-bot = TelegramClient('AJTime', api_id, api_hash).start(bot_token = bot_token)
-client = TelegramClient(phone, api_id, api_hash)
-client.connect()
+bot = TelegramClient('phantom2152', api_id, api_hash).start(bot_token = bot_token)
+#client = TelegramClient(phone, api_id, api_hash)
+#client.connect()
 
 '''Adding Functionalityto Bot!'''
 #Checking whether user is joined the Channel
 async def search_user_in_channel(userid):
-    users = await client.get_participants('AJBotVerse')
+    users = await client.get_participants('aniuserge')
     for user in users:
         if str(user.id) == str(userid):
             return True
